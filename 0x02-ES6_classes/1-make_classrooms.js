@@ -1,6 +1,6 @@
 // 1-classrooms.js
 
-import ClassRoom from "./0-classroom";
+import ClassRoom from './0-classroom';
 
 /**
  * Initializes an array of ClassRoom objects with given sizes.
