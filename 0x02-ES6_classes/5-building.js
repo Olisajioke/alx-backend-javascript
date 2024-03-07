@@ -3,9 +3,9 @@
  */
 export default class Building {
   /**
-     * Creates a new Building instance.
-     * @param {Number} sqft - The square footage of the building.
-     */
+   * Creates a new Building instance.
+   * @param {Number} sqft - The square footage of the building.
+   */
   constructor(sqft) {
     this._sqft = sqft;
   }
@@ -16,10 +16,12 @@ export default class Building {
   }
 
   /**
-     * Abstract method that must be implemented by subclasses.
-     * Throws an error if called directly from the base class.
-     */
+   * Abstract method that must be implemented by subclasses.
+   * Throws an error if called directly from the base class.
+   */
   evacuationWarningMessage() {
-    throw new Error('Class extending Building must override evacuationWarningMessage');
+    // You can use 'this' here even if it's not necessary
+    throw new Error("Class extending Building must override evacuationWarningMessage");
   }
 }
+
