@@ -18,9 +18,11 @@ export default class Building {
   /**
    * Abstract method that must be implemented by subclasses.
    * Throws an error if called directly from the base class.
+   * @throws {Error} - If called directly from the base class.
    */
   evacuationWarningMessage() {
     // Ensure 'this' is used as expected
-    throw new Error('Class extending Building must override evacuationWarningMessage');
+    throw new Error("Class extending Building must override evacuationWarningMessage");
   }
 }
+
