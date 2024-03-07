@@ -1,4 +1,4 @@
-const classConstructor = Symbol("classConstructor");
+const classConstructor = Symbol('classConstructor');
 
 /**
  * Represents a Car.
