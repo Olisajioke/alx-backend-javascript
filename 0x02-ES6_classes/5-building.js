@@ -7,12 +7,12 @@ export default class Building {
    * @param {Number} sqft - The square footage of the building.
    */
   constructor(sqft) {
-    this._sqft = sqft;
+      this._sqft = sqft;
   }
 
   // Getter for sqft attribute
   get sqft() {
-    return this._sqft;
+      return this._sqft;
   }
 
   /**
@@ -20,7 +20,7 @@ export default class Building {
    * Throws an error if called directly from the base class.
    */
   evacuationWarningMessage() {
-    // You can use 'this' here even if it's not necessary
-    throw new Error("Class extending Building must override evacuationWarningMessage");
+      // Ensure 'this' is used as expected
+      throw new Error("Class extending Building must override evacuationWarningMessage");
   }
 }

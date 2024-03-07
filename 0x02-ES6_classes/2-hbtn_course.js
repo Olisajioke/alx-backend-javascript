@@ -36,7 +36,7 @@ export default class HolbertonCourse {
    * @throws {TypeError} - If the value is not a number.
    */
   _validateNumber(value, attributeName) {
-      if (typeof value !== "number" || Number.isNaN(value)) { // Fix here
+      if (typeof value !== "number" || Number.isNaN(value)) { // Fixed here
           throw new TypeError(`${attributeName} must be a number`);
       }
       return value;
