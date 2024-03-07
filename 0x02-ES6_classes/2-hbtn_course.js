@@ -83,4 +83,3 @@ export default class HolbertonCourse {
     this._students = this._validateStudents(value);
   }
 }
-
