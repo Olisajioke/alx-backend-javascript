@@ -22,7 +22,6 @@ export default class Building {
    */
   evacuationWarningMessage() {
     // Ensure 'this' is used as expected
-    throw new Error("Class extending Building must override evacuationWarningMessage");
+    throw new Error('Class extending Building must override evacuationWarningMessage');
   }
 }
-
