@@ -1,19 +1,27 @@
 {
   "scripts": {
-    "lint": "./node_modules/.bin/eslint",
+    "lint": "eslint",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
     "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
+    "full-test": "eslint [0-9]*.js && jest"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/node": "^7.8.0",
     "@babel/preset-env": "^7.6.0",
-    "eslint": "^6.4.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "jest": "^24.9.0"
-  }
+  },
+  "name": "0x01-ES6_promise",
+  "description": "Curriculum Short Specializations Average: 0.0% 0x01. ES6 Promises JavaScript ES6  By: Johann Kerbrat, Engineering Manager at Uber Works  Weight: 1  Project will start Mar 5, 2024 6:00 AM, must end by Mar 7, 2024 6:00 AM  Checker will be released at Mar 5, 2024 6:00 PM  An auto review will be launched at the deadline",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
