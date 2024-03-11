@@ -4,8 +4,7 @@
  * @returns {Set} A Set containing the elements from the array.
  */
 function setFromArray(array) {
-    return new Set(array);
-  }
-  
-  export default setFromArray;
-  
+  return new Set(array);
+}
+
+export default setFromArray;

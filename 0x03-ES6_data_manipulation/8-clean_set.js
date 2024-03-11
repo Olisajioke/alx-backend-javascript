@@ -5,9 +5,8 @@
  * @returns {String} A string containing all set values that start with the specified string.
  */
 function cleanSet(set, startString) {
-    const filteredValues = Array.from(set).filter(value => value.startsWith(startString));
-    return filteredValues.join('-');
-  }
-  
-  export default cleanSet;
-  
+  const filteredValues = Array.from(set).filter((value) => value.startsWith(startString));
+  return filteredValues.join('-');
+}
+
+export default cleanSet;

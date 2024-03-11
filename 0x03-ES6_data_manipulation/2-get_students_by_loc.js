@@ -7,8 +7,7 @@
  * @returns {Object[]} An array of student objects located in the specified city.
  */
 function getStudentsByLocation(students, city) {
-    return students.filter(student => student.location === city);
-  }
-  
-  export default getStudentsByLocation;
-  
+  return students.filter((student) => student.location === city);
+}
+
+export default getStudentsByLocation;

@@ -8,7 +8,7 @@ const weakMap = new WeakMap();
 function checkQueryLimit(endpoint) {
   const count = weakMap.get(endpoint) || 0;
   if (count >= 5) {
-    throw new Error("Endpoint load is high");
+    throw new Error('Endpoint load is high');
   }
 }
 

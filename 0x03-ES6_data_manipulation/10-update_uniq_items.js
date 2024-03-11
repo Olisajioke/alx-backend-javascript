@@ -4,16 +4,15 @@
  * @throws {Error} If the argument is not a map.
  */
 function updateUniqueItems(map) {
-    if (!(map instanceof Map)) {
-      throw new Error("Cannot process");
-    }
-  
-    map.forEach((quantity, item) => {
-      if (quantity === 1) {
-        map.set(item, 100);
-      }
-    });
+  if (!(map instanceof Map)) {
+    throw new Error('Cannot process');
   }
-  
-  export default updateUniqueItems;
-  
+
+  map.forEach((quantity, item) => {
+    if (quantity === 1) {
+      map.set(item, 100);
+    }
+  });
+}
+
+export default updateUniqueItems;
