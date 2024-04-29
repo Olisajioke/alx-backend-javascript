@@ -1,10 +1,9 @@
-/* Script that starts a server that listens on port 1245 and prints Hello Holberton School*/
+/* Script that starts a server that listens on port 1245 and prints Hello Holberton School!*/
 
 const express = require('express');
 
 const PORT = 1245;
 const app = express();
-
 
 app.get('/', (_, res) => {
   res.send('Hello Holberton School!');
