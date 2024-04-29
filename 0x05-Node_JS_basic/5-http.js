@@ -1,4 +1,4 @@
-/* Script that creates a simple HTTP server */ 
+/* Script that creates a simple HTTP server */
 const http = require('http');
 const fs = require('fs');
 

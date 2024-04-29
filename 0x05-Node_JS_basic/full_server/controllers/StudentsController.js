@@ -6,7 +6,7 @@ class StudentsController {
       const students = await readDatabase('./database.csv');
       let response = 'This is the list of our students\n';
 
-      Object.keys(students).sort((a, b) => a.localeCompare(b)).forEach(field => {
+      Object.keys(students).sort((a, b) => a.localeCompare(b)).forEach((field) => {
         const count = students[field].length;
         const list = students[field].join(', ');
         response += `Number of students in ${field}: ${count}. List: ${list}\n`;
