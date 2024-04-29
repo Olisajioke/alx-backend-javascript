@@ -1,4 +1,4 @@
-/* Script that writes to stdout */
+/** Script that writes to stdout */
 process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
 process.stdin.on('readable', () => {
